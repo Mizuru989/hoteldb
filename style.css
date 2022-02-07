@@ -1,0 +1,118 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+      justify-content: center;
+      display: flex;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    }
+  
+  
+  h2{
+      align-items: center;
+      justify-content: center;
+      display: flex;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  /* .oceanblue {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+  } */
+  .title > .oceanblue {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    /* overflow-y: hidden; */
+  }
+  .Biodata{
+    width: 50%;
+    height: 62.5%;
+  }
+  /* .title {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  } */
+  .Biodata >form{
+      height: 100%;
+      font-size: 18px;
+      border: 5px solid rgb(62, 130, 175);
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+      /* padding: 20% 10%; */
+      /* margin: 200px; */
+      box-shadow: 10px 13px 15px -2px rgba(122, 122, 122, 0.84);
+      border-radius: 20px;
+  }
+   .title{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    background-color: transparent;
+    padding: 2.5% 0%;
+    color: aliceblue;
+    overflow-y: hidden;
+  }
+  .Biodata >form>div{
+    
+    width: 40%;
+  }
+  
+  .Biodata>form>div>input, select{
+    height: 2.5vh;
+  }
+  .Biodata >form>div>*{
+    width: 100%;
+  }
+  select{
+    width: auto !important;
+  }
+  
+  .gender{
+    display: flex
+  
+  }
+  .gender > .gender-option{
+    display:flex;
+    width: 75%;
+  }
+  .gender > p{
+    width: 25% !important;
+  }
+  .gender > .gender-option > div{
+    margin: 0 0px 0 0;
+    width: 50%;
+  }
+  
+  .submitbooknow {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: rgb(0, 195, 255);
+    color: white;
+    border-radius: 10px;
+    /* position: relative; */
+  }
+  
+  .submitbooknow:hover{
+    background: rgb(0, 110, 253);
+    color: rgb(255, 255, 255);
+  }
+  
